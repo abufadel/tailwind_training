@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/dist/style.css">
+   <link rel="stylesheet" href="/src/CSS/all.css">
+   <link rel="stylesheet" href="/src/CSS/all.min.css">
+   <link href="/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
+   <link href="/fontawesome-free-6.4.2-web/css/css/brands.css" rel="stylesheet">
+   <link href="/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
+   <title>Tailwind CSS</title>
+</head>
+
+<body>
+   <nav class="container mx-auto p-6 flex items-center justify-between">
+      <div>
+         <img class="" src="./dist/imgs/logo-light.png" alt="Tailwind Logo" width="200px">
+      </div>
+      <div>
+         <ul class="hidden md:flex space-x-6">
+            <li class="text-slate-900 hover:text-slate-400"> <a href="#">Portifolio</a> </li>
+            <li class="text-slate-900 hover:text-slate-400"> <a href="#">About</a> </li>
+            <li class="text-slate-900 hover:text-slate-400"> <a href="#">Contact</a> </li>
+            <li class="text-slate-900 hover:text-slate-400"> <a href="#">Social</a> </li>
+            <a class="text-white bg-orange-500 rounded-full py-1 px-5 hover:bg-slate-900" href="#">Call Me</a>
+         </ul>
+      </div>
+   </nav>
+
+   <section id="one">
+      <div class="container flex mx-auto px-6 space-x-6 flex-col-reverse md:flex-row">
+         <div
+            class="md:w-1/2 flex flex-col space-y-5 text-center md:text-left py-8 items-center justify-center text-slate-900">
+            <h1 class="font-bold text-3xl md:text-5xl">Rapidly build modern websites without ever leaving your HTML</h1>
+            <p>A utility-first CSS framework packed with classes like flex, pt-4,
+               text-center and
+               rotate-90 that can be
+               composed to
+               build any design, directly in your markup</p>
+            <a class="text-white self-center md:self-start bg-orange-500 rounded-full py-1 px-5 hover:bg-slate-900"
+               href="#">Get Started</a>
+         </div>
+         <div class="md:w-1/2">
+            <img src="./dist/imgs/undraw_learning_sketching_nd4f.svg" alt="Photo">
+         </div>
+      </div>
+   </section>
+   <section id="two">
+      <div class="flex justify-center items-center flex-col m-10 p-6">
+         <h1 class="font-bold text-3xl md:text-3xl">“Best practices” don’t actually work</h1>
+         <p class="text-center mx-6 px-6">I’ve written a few thousand words on why traditional “semantic class names”
+            are the reason CSS is hard to
+            maintain, but
+            the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to
+            retch long
+            enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way</p>
+      </div>
+      <div class="md:flex justify-evenly">
+
+         <div class="md:flex justify-evenly">
+            <div
+               class="bg-slate-200 hover:bg-white w-11/12 md:w-56 h-60 md:h-80 relative rounded-xl mx-auto my-12 flex justify-center">
+               <div class="w-20 absolute -top-5">
+                  <img class="rounded-full" src="/dist/imgs/adam.jpg" alt="Adam photo">
+               </div>
+               <h1 class="absolute top-20 font-bold">Adam Sandler</h1>
+               <p class="absolute top-28 text-center p-2">The way I wrote it changed frequently. It’s not a
+                  coincidence
+                  Tailwind was
+                  released the same year. It
+                  might look wrong,
+                  but spend time with it and you’ll realize semantic CSS was a 20 year mistake</p>
+            </div>
+         </div>
+         <div class="md:flex justify-evenly">
+            <div
+               class="bg-slate-200 hover:bg-white w-11/12 md:w-56 h-60 md:h-80 relative rounded-xl mx-auto my-12 flex justify-center">
+               <div class="w-20 absolute -top-5">
+                  <img class="rounded-full" src="/dist/imgs/marcel.jpg" alt="Marcel photo">
+               </div>
+               <h1 class="absolute top-20 font-bold">Marcel Khalifa</h1>
+               <p class="absolute top-28 text-center p-2">I started using @tailwindcss. I instantly fell in love with
+                  their responsive modifiers, thorough documentation, and how
+                  easy it was customizing color palettes</p>
+            </div>
+         </div>
+         <div class="md:flex justify-evenly">
+            <div
+               class="bg-slate-200 hover:bg-white w-11/12 md:w-56 h-60 md:h-80 relative rounded-xl mx-auto my-12 flex justify-center">
+               <div class="w-20 absolute -top-5">
+                  <img class="rounded-full" src="/dist/imgs/adam.jpg" alt="Adam photo">
+               </div>
+               <h1 class="absolute top-20 font-bold">Adam Sandler</h1>
+               <p class="absolute top-28 text-center p-2">The way I wrote it changed frequently. It’s not a
+                  coincidence
+                  Tailwind was
+                  released the same year. It
+                  might look wrong,
+                  but spend time with it and you’ll realize semantic CSS was a 20 year mistake</p>
+            </div>
+         </div>
+      </div>
+
+   </section>
+   <section id="three">
+      <div class="bg-orange-500 min-w-full flex flex-col md:flex-row justify-center items-center md:h-24">
+         <h1 class="py-6 text-3xl font-bold text-white mx-6 md:mx-0 text-center">Move even faster with
+            Tailwind UI</h1>
+         <a class="mb-6 md:mb-0 md:ml-6 text-orange-500 bg-white rounded-full py-1 px-5 hover:bg-slate-900 hover:text-white"
+            href="#">Start
+            Here</a>
+      </div>
+   </section>
+   <footer>
+      <div class="flex justify-around flex-row w-full flex-wrap bg-slate-900">
+         <div
+            class="flex h-28 content-center flex-wrap justify-evenly md:items-center flex-col md:flex-row md:justify-between ">
+            <p class="ml-4 text-white">Copyright © 2023, All Rights Reserved</p>
+            <div class="flex items-center links">
+               <a href="#"><i class="fab fa-facebook text-white text-3xl ml-6"></i></a>
+               <a href="#"><i class="fab fa-instagram text-white text-3xl ml-6"></i></a>
+               <a href="#"><i class="fab fa-youtube text-white text-3xl ml-6"></i></a>
+               <a href="#"><i class="fab fa-twitter text-white text-3xl ml-6"></i></a>
+               <a href="#"><i class="fab fa-linkedin text-white text-3xl ml-6"></i></a>
+
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
