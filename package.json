@@ -4,8 +4,7 @@
   "description": "tailwind",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build --output public",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+    "build": "tailwindcss build --output public"
   },
   "author": "",
   "license": "ISC",
