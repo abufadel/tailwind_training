@@ -4,11 +4,11 @@
   "description": "tailwind",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build --output public"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.4.0"
   }
 }
